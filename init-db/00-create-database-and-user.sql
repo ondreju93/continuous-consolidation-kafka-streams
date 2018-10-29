@@ -1,0 +1,6 @@
+FLUSH PRIVILEGES ;
+CREATE DATABASE insurance;
+CREATE USER 'dbz'@'mysql' IDENTIFIED BY 'dbz';
+USE insurance;
+GRANT ALL PRIVILEGES ON insurance to 'dbz'@'mysql' WITH GRANT OPTION;
+FLUSH PRIVILEGES ;
